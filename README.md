@@ -1,6 +1,8 @@
-# Racket Buddy
+# [Racket Buddy](https://racket-buddy.vercel.app/)
 
 A modern web application for organizing and joining weekly tennis matches with friends.
+
+# App Available At: [https://racket-buddy.vercel.app/](https://racket-buddy.vercel.app/)
 
 ## Features
 
@@ -33,7 +35,7 @@ racket-buddy/
 └── README.md
 ```
 
-## Setup Instructions
+## LOCAL Setup Instructions
 
 ### Backend Setup
 1. Navigate to the backend directory:
