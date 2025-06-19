@@ -113,7 +113,7 @@ const Dashboard: React.FC = () => {
 
     setIsSearching(true);
     try {
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/geocode?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/geocode?query=${encodeURIComponent(query)}`);
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
